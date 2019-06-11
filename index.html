@@ -18,11 +18,11 @@
         In order to simplify the process, an array of free memory blocks is maintained, arranged by size. The size of this list is equivalent to the number of possible
         memory sizes. Here is the calculation I used to determine the size of the free list. 
       </p>
-      <div class="content img-container"><img src="./images/bbs_calculator.png"></div>
+      <div class="content img-container"><img src="./images/bbs_calculator.PNG"></div>
       <p>
         Here is the algorithm I wrote in the alloc() function to break up the memory and allocate it to the user.
       </p>
-      <div class="content img-container"><img src="./images/alloc.png"></div>
+      <div class="content img-container"><img src="./images/alloc.PNG"></div>
       <p>
         The location_in_list variable is the location in the free list where the most ideal chunk of memory will be 
         located if there is one. The tryGet() function searches the linked list at that location of the free list to determine if
@@ -33,7 +33,7 @@
       <p>
         Here is the algorithm in the free() function that merges the memory when it is released by the user.
       </p>
-      <div class="content img-container"><img src="./images/free.png"></div>
+      <div class="content img-container"><img src="./images/free.PNG"></div>
       <p>
         This algorithm first calculates the location of its buddy (not shown), and merges them if the buddy is free. It then looks
         for the buddy of the merged chunk and if that buddy is free, merges them as well. This process happens until either all the 
