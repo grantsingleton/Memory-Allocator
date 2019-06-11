@@ -1,0 +1,30 @@
+/* Global Styles */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Main Styles */
+body {
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    background-color: #ffffff;
+    padding-right: 100px;
+    padding-left: 100px;
+    max-width: 1200px;
+}
+
+@media (max-width: 900px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    img {
+        width: 90%;
+    }
+}
