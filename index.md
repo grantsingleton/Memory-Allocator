@@ -3,8 +3,8 @@ In this school assignment the task was to create a buddy-system memory allocator
 This is a process that is accomplished by the OS kernel. I am simply creating the algorithm, implementing it as a C++ program to be tested 
 by the Ackerman function.
 
-##Implementation
-###Basic Block Size and Free List
+## Implementation
+### Basic Block Size and Free List
 In this system, a section of memory is broken into smaller sections and allocated to users upon request. 
 In order to manage fragmentation, a basic block size is determined. The basic block size is the minimum memory size 
 that can be allocated. When a request for memory is made, the smallest available power of 2 multiple of the basic block size is given.
