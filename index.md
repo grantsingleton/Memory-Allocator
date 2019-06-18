@@ -29,9 +29,7 @@ to give the user (this is done in the lookup() function). If nothing is found, t
 
 Here is the algorithm I wrote in the alloc() function to break up the memory and allocate it to the user.
 
-```
 ![free](./images/free.PNG)
-```
 
 This algorithm first calculates the location of its buddy (not shown), and merges them if the buddy is free. It then looks
 for the buddy of the merged chunk and if that buddy is free, merges them as well. This process happens until either all the 
