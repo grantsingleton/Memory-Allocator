@@ -1,4 +1,4 @@
-# Description
+## Description
 In this school assignment the task was to create a buddy-system memory allocator for a zone of memory.
 This is a process that is accomplished by the OS kernel. I am simply creating the algorithm, implementing it as a C++ program to be tested 
 by the Ackerman function.
